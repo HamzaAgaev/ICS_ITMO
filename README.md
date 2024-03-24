@@ -4,3 +4,4 @@
 2. [Дискретная матаматика](useful_materials/discrete_maths/)
 3. [Основы профессиональной деятельности](useful_materials/OPD)
 4. [Программирование](useful_materials/programming)
+5. [Базы данных](useful_materials/databases/)
