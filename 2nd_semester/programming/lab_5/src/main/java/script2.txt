@@ -1,0 +1,2 @@
+info
+execute_script /Users/hamzaagaev/Desktop/ITMO_University/academic_debt/programming/lab_5/src/main/java/script1.txt

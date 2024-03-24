@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "Test name",
+    "coordinates": {
+      "x": 12,
+      "y": 38
+    },
+    "creationDate": "2024-03-01T23:58:26.872342",
+    "enginePower": 4,
+    "numberOfWheels": 5,
+    "capacity": 1.6,
+    "type": "PLANE"
+  },
+  {
+    "id": 2,
+    "name": "Z",
+    "coordinates": {
+      "x": 1,
+      "y": 1
+    },
+    "creationDate": "2024-03-02T00:01:16.773216",
+    "enginePower": 1,
+    "numberOfWheels": 1,
+    "capacity": 1.0
+  }
+]

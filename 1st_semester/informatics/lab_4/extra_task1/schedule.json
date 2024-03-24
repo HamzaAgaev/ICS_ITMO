@@ -1,0 +1,295 @@
+{
+    "all": {
+        "@type": "dict",
+        "day": {
+            "@type": "str",
+            "#text": "Понедельник"
+        },
+        "day-schedule": {
+            "@type": "arr",
+            "lesson": [
+                {
+                    "@type": "dict",
+                    "lesson-time-info": {
+                        "@type": "dict",
+                        "lesson-weeks": {
+                            "@type": "arr",
+                            "week": [
+                                {
+                                    "@type": "number",
+                                    "#text": "2"
+                                },
+                                {
+                                    "@type": "number",
+                                    "#text": "4"
+                                },
+                                {
+                                    "@type": "number",
+                                    "#text": "6"
+                                },
+                                {
+                                    "@type": "number",
+                                    "#text": "8"
+                                },
+                                {
+                                    "@type": "number",
+                                    "#text": "10"
+                                },
+                                {
+                                    "@type": "number",
+                                    "#text": "12"
+                                },
+                                {
+                                    "@type": "number",
+                                    "#text": "14"
+                                },
+                                {
+                                    "@type": "number",
+                                    "#text": "16"
+                                }
+                            ]
+                        },
+                        "lesson-time": {
+                            "@type": "str",
+                            "#text": "10:00-11:30"
+                        }
+                    },
+                    "lesson-place-info": {
+                        "@type": "dict",
+                        "lesson-building": {
+                            "@type": "str"
+                        },
+                        "lesson-room": {
+                            "@type": "str"
+                        }
+                    },
+                    "lesson-base-info": {
+                        "@type": "dict",
+                        "lesson-name": {
+                            "@type": "str",
+                            "#text": "Языки программирования"
+                        },
+                        "lesson-teacher": {
+                            "@type": "str",
+                            "#text": "Жирков Игорь Олегович"
+                        }
+                    },
+                    "lesson-format": {
+                        "@type": "str",
+                        "#text": "Дистанционный"
+                    }
+                },
+                {
+                    "@type": "dict",
+                    "lesson-time-info": {
+                        "@type": "dict",
+                        "lesson-weeks": {
+                            "@type": "arr",
+                            "week": [
+                                {
+                                    "@type": "number",
+                                    "#text": "1"
+                                },
+                                {
+                                    "@type": "number",
+                                    "#text": "2"
+                                },
+                                {
+                                    "@type": "number",
+                                    "#text": "3"
+                                },
+                                {
+                                    "@type": "number",
+                                    "#text": "4"
+                                },
+                                {
+                                    "@type": "number",
+                                    "#text": "5"
+                                },
+                                {
+                                    "@type": "number",
+                                    "#text": "6"
+                                },
+                                {
+                                    "@type": "number",
+                                    "#text": "7"
+                                },
+                                {
+                                    "@type": "number",
+                                    "#text": "8"
+                                },
+                                {
+                                    "@type": "number",
+                                    "#text": "9"
+                                },
+                                {
+                                    "@type": "number",
+                                    "#text": "10"
+                                },
+                                {
+                                    "@type": "number",
+                                    "#text": "11"
+                                },
+                                {
+                                    "@type": "number",
+                                    "#text": "12"
+                                },
+                                {
+                                    "@type": "number",
+                                    "#text": "13"
+                                },
+                                {
+                                    "@type": "number",
+                                    "#text": "14"
+                                },
+                                {
+                                    "@type": "number",
+                                    "#text": "15"
+                                },
+                                {
+                                    "@type": "number",
+                                    "#text": "16"
+                                }
+                            ]
+                        },
+                        "lesson-time": {
+                            "@type": "str",
+                            "#text": "15:20-16:50"
+                        }
+                    },
+                    "lesson-place-info": {
+                        "@type": "dict",
+                        "lesson-building": {
+                            "@type": "str",
+                            "#text": "ул.Ломоносова, д.9, лит. А"
+                        },
+                        "lesson-room": {
+                            "@type": "str",
+                            "#text": "2202"
+                        }
+                    },
+                    "lesson-base-info": {
+                        "@type": "dict",
+                        "lesson-name": {
+                            "@type": "str",
+                            "#text": "Математика (БАЗОВЫЙ УРОВЕНЬ)"
+                        },
+                        "lesson-teacher": {
+                            "@type": "str",
+                            "#text": "Холодова Светлана Евгеньевна"
+                        }
+                    },
+                    "lesson-format": {
+                        "@type": "str",
+                        "#text": "Очный"
+                    }
+                },
+                {
+                    "@type": "dict",
+                    "lesson-time-info": {
+                        "@type": "dict",
+                        "lesson-weeks": {
+                            "@type": "arr",
+                            "week": [
+                                {
+                                    "@type": "number",
+                                    "#text": "1"
+                                },
+                                {
+                                    "@type": "number",
+                                    "#text": "2"
+                                },
+                                {
+                                    "@type": "number",
+                                    "#text": "3"
+                                },
+                                {
+                                    "@type": "number",
+                                    "#text": "4"
+                                },
+                                {
+                                    "@type": "number",
+                                    "#text": "5"
+                                },
+                                {
+                                    "@type": "number",
+                                    "#text": "6"
+                                },
+                                {
+                                    "@type": "number",
+                                    "#text": "7"
+                                },
+                                {
+                                    "@type": "number",
+                                    "#text": "8"
+                                },
+                                {
+                                    "@type": "number",
+                                    "#text": "9"
+                                },
+                                {
+                                    "@type": "number",
+                                    "#text": "10"
+                                },
+                                {
+                                    "@type": "number",
+                                    "#text": "11"
+                                },
+                                {
+                                    "@type": "number",
+                                    "#text": "12"
+                                },
+                                {
+                                    "@type": "number",
+                                    "#text": "13"
+                                },
+                                {
+                                    "@type": "number",
+                                    "#text": "14"
+                                },
+                                {
+                                    "@type": "number",
+                                    "#text": "15"
+                                },
+                                {
+                                    "@type": "number",
+                                    "#text": "16"
+                                }
+                            ]
+                        },
+                        "lesson-time": {
+                            "@type": "str",
+                            "#text": "17:00-18:30"
+                        }
+                    },
+                    "lesson-place-info": {
+                        "@type": "dict",
+                        "lesson-building": {
+                            "@type": "str",
+                            "#text": "ул.Ломоносова, д.9, лит. Е"
+                        },
+                        "lesson-room": {
+                            "@type": "str",
+                            "#text": "3408"
+                        }
+                    },
+                    "lesson-base-info": {
+                        "@type": "dict",
+                        "lesson-name": {
+                            "@type": "str",
+                            "#text": "Математика (БАЗОВЫЙ УРОВЕНЬ)"
+                        },
+                        "lesson-teacher": {
+                            "@type": "str",
+                            "#text": "Цветков Константин Борисович"
+                        }
+                    },
+                    "lesson-format": {
+                        "@type": "str",
+                        "#text": "Очный"
+                    }
+                }
+            ]
+        }
+    }
+}

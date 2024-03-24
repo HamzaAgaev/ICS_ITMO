@@ -1,0 +1,9 @@
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+*.DS_Store
+
+### Future Files ###
+2nd_semester/databases
