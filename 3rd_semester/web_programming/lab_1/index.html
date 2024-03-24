@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agaev Hamza</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Ubuntu&display=swap" rel="stylesheet">
+    <script src=".\script.js"></script>
+</head>
+<body>
+    <div class="header">
+        <span class="header_text">
+            Агаев Хамза Рустам оглы
+        </span>
+        <span class="header_text">
+            Группа: P3234
+        </span>
+        <span class="header_text">
+            Номер варианта: 3677867
+        </span>
+    </div>
+
+    <div class="main_content">
+        <img class="img_block" src="assets/areas.png">
+
+        <div class="form_block">
+            <form> <!-- method="get" action=".\script.php" -->
+
+                <input type="hidden" name="X" value="0">
+    
+                <label class="main_text">X Value</label>
+                <input class="input_button" type="button" value="-3" onclick="setX(-3)">
+                <input class="input_button" type="button" value="-2" onclick="setX(-2)">
+                <input class="input_button" type="button" value="-1" onclick="setX(-1)">
+                <input class="input_button" type="button" value="0" onclick="setX(0)">
+                <input class="input_button" type="button" value="1" onclick="setX(1)">
+                <input class="input_button" type="button" value="2" onclick="setX(2)">
+                <input class="input_button" type="button" value="3" onclick="setX(3)">
+                <input class="input_button" type="button" value="4" onclick="setX(4)">
+                <input class="input_button" type="button" value="5" onclick="setX(5)">
+    
+                <label class="main_text">Y Value</label>
+                <input type="text" name="Y" value="0" placeholder="[-3, ..., 5]">
+    
+                <label class="main_text">Radius value</label>
+                <select name="R">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                
+                <input class="input_button" type="button" id="send" value="Send">
+            </form>
+            <span class="main_text" id="info_text">
+                Information about the entered values will be displayed here.
+            </span>
+        </div>
+
+        <div class="table_block">
+            <table id="restab">
+                <tr id="tab_head">
+                    <th>Current Date</th>
+                    <th>Execution time, µs</th>
+                    <th>X</th>
+                    <th>Y</th>
+                    <th>Radius</th>
+                    <th>In area</th>
+                </tr>
+            </table>
+        </div>
+        
+    </div>
+</body>
+</html>

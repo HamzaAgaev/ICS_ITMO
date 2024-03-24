@@ -1,0 +1,17 @@
+/Users/hamzaagaev/Desktop/ITMO_University/ICS_ITMO/3rd_semester/web_programming/lab_4/src/main/java/itmo/webprogramming/lab_4/controllers/GetAllResultsForAuthorized.java
+/Users/hamzaagaev/Desktop/ITMO_University/ICS_ITMO/3rd_semester/web_programming/lab_4/src/main/java/itmo/webprogramming/lab_4/entities/UsernameAndPassword.java
+/Users/hamzaagaev/Desktop/ITMO_University/ICS_ITMO/3rd_semester/web_programming/lab_4/src/main/java/itmo/webprogramming/lab_4/entities/User.java
+/Users/hamzaagaev/Desktop/ITMO_University/ICS_ITMO/3rd_semester/web_programming/lab_4/src/main/java/itmo/webprogramming/lab_4/entities/Result.java
+/Users/hamzaagaev/Desktop/ITMO_University/ICS_ITMO/3rd_semester/web_programming/lab_4/src/main/java/itmo/webprogramming/lab_4/controllers/AddResultForAuthorized.java
+/Users/hamzaagaev/Desktop/ITMO_University/ICS_ITMO/3rd_semester/web_programming/lab_4/src/main/java/itmo/webprogramming/lab_4/repositories/ResultRepository.java
+/Users/hamzaagaev/Desktop/ITMO_University/ICS_ITMO/3rd_semester/web_programming/lab_4/src/main/java/itmo/webprogramming/lab_4/controllers/LoginForAuthorized.java
+/Users/hamzaagaev/Desktop/ITMO_University/ICS_ITMO/3rd_semester/web_programming/lab_4/src/main/java/itmo/webprogramming/lab_4/controllers/ResultController.java
+/Users/hamzaagaev/Desktop/ITMO_University/ICS_ITMO/3rd_semester/web_programming/lab_4/src/main/java/itmo/webprogramming/lab_4/entities/CoordinatesXYR.java
+/Users/hamzaagaev/Desktop/ITMO_University/ICS_ITMO/3rd_semester/web_programming/lab_4/src/main/java/itmo/webprogramming/lab_4/services/UserService.java
+/Users/hamzaagaev/Desktop/ITMO_University/ICS_ITMO/3rd_semester/web_programming/lab_4/src/main/java/itmo/webprogramming/lab_4/controllers/ForAuthorizedUsers.java
+/Users/hamzaagaev/Desktop/ITMO_University/ICS_ITMO/3rd_semester/web_programming/lab_4/src/main/java/itmo/webprogramming/lab_4/Lab4Application.java
+/Users/hamzaagaev/Desktop/ITMO_University/ICS_ITMO/3rd_semester/web_programming/lab_4/src/main/java/itmo/webprogramming/lab_4/controllers/AuthController.java
+/Users/hamzaagaev/Desktop/ITMO_University/ICS_ITMO/3rd_semester/web_programming/lab_4/src/main/java/itmo/webprogramming/lab_4/controllers/DeleteAllResultsForAuthorized.java
+/Users/hamzaagaev/Desktop/ITMO_University/ICS_ITMO/3rd_semester/web_programming/lab_4/src/main/java/itmo/webprogramming/lab_4/ServletInitializer.java
+/Users/hamzaagaev/Desktop/ITMO_University/ICS_ITMO/3rd_semester/web_programming/lab_4/src/main/java/itmo/webprogramming/lab_4/repositories/UserRepository.java
+/Users/hamzaagaev/Desktop/ITMO_University/ICS_ITMO/3rd_semester/web_programming/lab_4/src/main/java/itmo/webprogramming/lab_4/services/ResultService.java

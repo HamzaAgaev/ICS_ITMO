@@ -1,0 +1,16 @@
+/Users/hamzaagaev/Desktop/ITMO_University/academic_debt/programming/lab_7/common/src/main/java/common/netentities/ResponseEntity.java
+/Users/hamzaagaev/Desktop/ITMO_University/academic_debt/programming/lab_7/common/src/main/java/common/data/CommandParameter.java
+/Users/hamzaagaev/Desktop/ITMO_University/academic_debt/programming/lab_7/common/src/main/java/common/arguments/Parameter.java
+/Users/hamzaagaev/Desktop/ITMO_University/academic_debt/programming/lab_7/common/src/main/java/common/data/validators/VehicleValidator.java
+/Users/hamzaagaev/Desktop/ITMO_University/academic_debt/programming/lab_7/common/src/main/java/common/data/VehicleType.java
+/Users/hamzaagaev/Desktop/ITMO_University/academic_debt/programming/lab_7/common/src/main/java/common/netentities/RequestEntity.java
+/Users/hamzaagaev/Desktop/ITMO_University/academic_debt/programming/lab_7/common/src/main/java/common/data/CommandName.java
+/Users/hamzaagaev/Desktop/ITMO_University/academic_debt/programming/lab_7/common/src/main/java/common/data/Coordinates.java
+/Users/hamzaagaev/Desktop/ITMO_University/academic_debt/programming/lab_7/common/src/main/java/common/ByteManager.java
+/Users/hamzaagaev/Desktop/ITMO_University/academic_debt/programming/lab_7/common/src/main/java/common/data/LoginStatus.java
+/Users/hamzaagaev/Desktop/ITMO_University/academic_debt/programming/lab_7/common/src/main/java/common/Sleeper.java
+/Users/hamzaagaev/Desktop/ITMO_University/academic_debt/programming/lab_7/common/src/main/java/common/arguments/ArgumentType.java
+/Users/hamzaagaev/Desktop/ITMO_University/academic_debt/programming/lab_7/common/src/main/java/common/data/Vehicle.java
+/Users/hamzaagaev/Desktop/ITMO_University/academic_debt/programming/lab_7/common/src/main/java/common/data/validators/CoordinatesValidator.java
+/Users/hamzaagaev/Desktop/ITMO_University/academic_debt/programming/lab_7/common/src/main/java/common/data/User.java
+/Users/hamzaagaev/Desktop/ITMO_University/academic_debt/programming/lab_7/common/src/main/java/common/data/RegisterStatus.java

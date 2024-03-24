@@ -1,0 +1,12 @@
+/Users/hamzaagaev/Desktop/ITMO_University/academic_debt/programming/lab_6/server/src/main/java/server/collection/CollectionManager.java
+/Users/hamzaagaev/Desktop/ITMO_University/academic_debt/programming/lab_6/server/src/main/java/server/jsonhandlers/LocalDateTimeAdapter.java
+/Users/hamzaagaev/Desktop/ITMO_University/academic_debt/programming/lab_6/server/src/main/java/server/netserver/ServerManager.java
+/Users/hamzaagaev/Desktop/ITMO_University/academic_debt/programming/lab_6/server/src/main/java/server/netserver/ResponseEntitySerializer.java
+/Users/hamzaagaev/Desktop/ITMO_University/academic_debt/programming/lab_6/server/src/main/java/server/netserver/RequestEntityDeserializer.java
+/Users/hamzaagaev/Desktop/ITMO_University/academic_debt/programming/lab_6/server/src/main/java/server/netserver/ClientMessageManager.java
+/Users/hamzaagaev/Desktop/ITMO_University/academic_debt/programming/lab_6/server/src/main/java/server/netserver/RequestReceiver.java
+/Users/hamzaagaev/Desktop/ITMO_University/academic_debt/programming/lab_6/server/src/main/java/server/netserver/ResponseSender.java
+/Users/hamzaagaev/Desktop/ITMO_University/academic_debt/programming/lab_6/server/src/main/java/server/jsonhandlers/JSONFileHandler.java
+/Users/hamzaagaev/Desktop/ITMO_University/academic_debt/programming/lab_6/server/src/main/java/server/App.java
+/Users/hamzaagaev/Desktop/ITMO_University/academic_debt/programming/lab_6/server/src/main/java/server/netserver/CommandDelegator.java
+/Users/hamzaagaev/Desktop/ITMO_University/academic_debt/programming/lab_6/server/src/main/java/server/jsonhandlers/JSONParser.java

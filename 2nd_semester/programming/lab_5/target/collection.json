@@ -1,0 +1,38 @@
+[
+  {
+    "id": 2,
+    "name": "Z",
+    "coordinates": {
+      "x": 1,
+      "y": 1
+    },
+    "creationDate": "2024-03-02T00:01:16.773216",
+    "enginePower": 1,
+    "numberOfWheels": 1,
+    "capacity": 1.0
+  },
+  {
+    "id": 3,
+    "name": "Helicopter",
+    "coordinates": {
+      "x": 10,
+      "y": 10
+    },
+    "creationDate": "2024-03-03T12:11:29.221137",
+    "enginePower": 1260,
+    "numberOfWheels": 8,
+    "capacity": 1000.0
+  },
+  {
+    "id": 4,
+    "name": "A",
+    "coordinates": {
+      "x": 1,
+      "y": 1
+    },
+    "creationDate": "2024-03-03T17:10:14.16174",
+    "enginePower": 1,
+    "numberOfWheels": 1,
+    "capacity": 1.0
+  }
+]

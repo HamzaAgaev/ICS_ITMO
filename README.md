@@ -5,3 +5,4 @@
 3. [Основы профессиональной деятельности](useful_materials/OPD)
 4. [Программирование](useful_materials/programming)
 5. [Базы данных](useful_materials/databases/)
+6. [Веб-программирование](useful_materials/web_programming/)

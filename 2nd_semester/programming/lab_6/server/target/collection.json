@@ -1,0 +1,88 @@
+[
+  {
+    "id": 4,
+    "name": "A",
+    "coordinates": {
+      "x": 1,
+      "y": 1
+    },
+    "creationDate": "2024-03-03T17:10:14.16174",
+    "enginePower": 1,
+    "numberOfWheels": 1,
+    "capacity": 1.0
+  },
+  {
+    "id": 3,
+    "name": "Helicopter",
+    "coordinates": {
+      "x": 10,
+      "y": 10
+    },
+    "creationDate": "2024-03-03T12:11:29.221137",
+    "enginePower": 1260,
+    "numberOfWheels": 8,
+    "capacity": 1000.0
+  },
+  {
+    "id": 6,
+    "name": "New Car",
+    "coordinates": {
+      "x": -30,
+      "y": 0
+    },
+    "creationDate": "2024-03-09T18:04:23.180996",
+    "enginePower": 19,
+    "numberOfWheels": 2,
+    "capacity": 300.0
+  },
+  {
+    "id": 7,
+    "name": "test 3",
+    "coordinates": {
+      "x": 1,
+      "y": 1
+    },
+    "creationDate": "2024-03-09T18:05:28.572394",
+    "enginePower": 1,
+    "numberOfWheels": 1,
+    "capacity": 1.0,
+    "type": "PLANE"
+  },
+  {
+    "id": 5,
+    "name": "ye",
+    "coordinates": {
+      "x": 10,
+      "y": 10
+    },
+    "creationDate": "2024-03-09T16:47:38.971864",
+    "enginePower": 3,
+    "numberOfWheels": 2
+  },
+  {
+    "id": 8,
+    "name": "22222",
+    "coordinates": {
+      "x": 22,
+      "y": 22
+    },
+    "creationDate": "2024-03-09T18:09:20.627081",
+    "enginePower": 22,
+    "numberOfWheels": 22,
+    "capacity": 22.0,
+    "type": "BOAT"
+  },
+  {
+    "id": 9,
+    "name": "11111",
+    "coordinates": {
+      "x": 11,
+      "y": 11
+    },
+    "creationDate": "2024-03-09T18:09:20.953733",
+    "enginePower": 11,
+    "numberOfWheels": 11,
+    "capacity": 11.0,
+    "type": "PLANE"
+  }
+]

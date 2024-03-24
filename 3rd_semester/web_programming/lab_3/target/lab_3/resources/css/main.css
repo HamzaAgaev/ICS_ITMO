@@ -1,0 +1,40 @@
+.table-block {
+    margin: 20px 40px;
+}
+
+.results-table {
+    border: solid;
+}
+
+.main-body {
+    margin: 70px;
+    margin-top: 30px;
+}
+
+.x-block {
+    margin: 15px 0;
+}
+
+.y-block {
+    margin: 15px 0;
+}
+
+.r-block {
+    margin: 15px 0;
+}
+
+.r-btn {
+    width: 60px;
+    margin: 5px 2px;
+}
+
+.do-btn {
+    margin: 5px 10px;
+    /*width: 100px;*/
+    height: 45px;
+}
+
+.to-start {
+    height: 45px;
+}
+
