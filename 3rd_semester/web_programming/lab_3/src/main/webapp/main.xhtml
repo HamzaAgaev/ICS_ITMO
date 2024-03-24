@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://java.sun.com/jsf/core">
+
+<h:head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"/>
+    <h:outputStylesheet library="css" name="style.css"/>
+    <h:outputStylesheet library="css" name="main.css"/>
+    <h:outputScript library="js" name="main.js"/>
+    <h:outputScript>
+        let canvas;
+        let xPrev;
+        let yPrev;
+        let usePrev = false;
+        window.onload = function () {
+            canvas = new CanvasManager();
+            canvas.getStartCanvas();
+            canvas.canvasElement.addEventListener('click', function (event) {
+                let [xClicked, yClicked] = canvas.handleClick(event);
+                xPrev = document.getElementById("form:iX_input").value;
+                yPrev = document.getElementById("form:iY").value;
+                usePrev = true;
+                document.getElementById("form:iX_input").value = xClicked;
+                document.getElementById("form:iY").value = yClicked;
+                document.getElementById("form:submit-button").click();
+            })
+        }
+
+        function submitListen(data) {
+            if (data.status === "success") {
+                let currentResultLabel = document.getElementById("form:current-result-label");
+                setCurrentResultToStorage(currentResultLabel.innerText);
+                addNewResultToStorage(currentResultLabel.innerText);
+                canvas.getStartCanvas();
+                if (usePrev) {
+                    document.getElementById("form:iX_input").value = xPrev;
+                    document.getElementById("form:iY").value = yPrev;
+                    usePrev = false;
+                }
+            }
+        }
+
+        function clearListen(data) {
+            if (data.status === "success") {
+                removeResultListFromStorage();
+                canvas.getStartCanvas();
+            }
+        }
+
+        function changeRadius(data) {
+            if (data.status === "success") {
+                let currentResultLabel = document.getElementById("form:current-result-label");
+                setCurrentResultToStorage(currentResultLabel.innerText);
+                removeResultListFromStorage();
+                canvas.getStartCanvas();
+            }
+        }
+    </h:outputScript>
+    <title>Main Page - Web Lab 3</title>
+</h:head>
+
+<h:body>
+    <div class="card main-block">
+        <div class="card-header text-center justify-content-center">
+            <span class="head-text">Агаев Хамза Рустам оглы</span>
+            <span class="head-text">Группа P3234</span>
+            <span class="head-text">Вариант 6894</span>
+        </div>
+        <div class="card-body main-body">
+            <div class="canvas-block d-flex justify-content-center">
+                <canvas id="canvas" width="550px" height="550px">
+                </canvas>
+            </div>
+            <div class="form-block">
+                <h:form id="form">
+                    <div class="x-block row">
+                        <label for="iX" class="col-sm-2 col-form-label">Enter X Value:</label>
+                        <p:spinner id="iX" styleClass="col-md-4" name="X" value="#{currentResult.x}" maxlength="7" min="-3" max="3" required="true">
+                            <f:validator validatorId="XValidator"/>
+                            <f:converter converterId="XConverter"/>
+                        </p:spinner>
+<!--                        <h:message for="iX"/>-->
+                    </div>
+                    <div class="y-block row">
+                        <label for="iY" class="col-sm-2 col-form-label">Enter Y Value:</label>
+                        <h:inputText id="iY" styleClass="col-md-4" name="Y" value="#{currentResult.y}" maxlength="7" required="true">
+                            <f:validator validatorId="YValidator"/>
+                            <f:converter converterId="YConverter"/>
+                        </h:inputText>
+<!--                        <h:message for="iY"/>-->
+                    </div>
+                    <div class="r-block row">
+                        <label for="iR" class="col-sm-2 col-form-label">Enter R Value:</label>
+                        <div id="iR" class="col-md-8 justify-content-between">
+                            <h:commandButton name="R" value="1" styleClass="btn btn-dark r-btn" action="#{currentResult.setR(1)}" type="button">
+                                <f:ajax execute="@this" render="current-result-label" onevent="changeRadius"/>
+                            </h:commandButton>
+                            <h:commandButton name="R" value="2" styleClass="btn btn-dark r-btn" action="#{currentResult.setR(2)}" type="button">
+                                <f:ajax execute="@this" render="current-result-label" onevent="changeRadius"/>
+                            </h:commandButton>
+                            <h:commandButton name="R" value="3" styleClass="btn btn-dark r-btn" action="#{currentResult.setR(3)}" type="button">
+                                <f:ajax execute="@this" render="current-result-label" onevent="changeRadius"/>
+                            </h:commandButton>
+                            <h:commandButton name="R" value="4" styleClass="btn btn-dark r-btn" action="#{currentResult.setR(4)}" type="button">
+                                <f:ajax execute="@this" render="current-result-label" onevent="changeRadius"/>
+                            </h:commandButton>
+                            <h:commandButton name="R" value="5" styleClass="btn btn-dark r-btn" action="#{currentResult.setR(5)}" type="button">
+                                <f:ajax execute="@this" render="current-result-label" onevent="changeRadius"/>
+                            </h:commandButton>
+<!--                            <h:message for="iR"/>-->
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <h:commandButton id="submit-button" styleClass="btn btn-info do-btn" type="button" value="Submit" action="#{results.addNewResult(currentResult)}">
+                            <f:ajax execute="@form" render="@form results-table iX iY iR current-result-label"
+                                    onevent="submitListen"/>
+                        </h:commandButton>
+                        <h:commandButton id="clear-button" styleClass="btn btn-secondary do-btn" type="button" value="Clear" action="#{results.clearResults()}">
+                            <f:ajax execute="@this" render="results-table" onevent="clearListen"/>
+                        </h:commandButton>
+                    </div>
+                    <label for="current-result-label" class="col-sm-2 col-form-label">Current Result</label>
+                    <h:outputLabel id="current-result-label" styleClass="col-sm-8" value="#{currentResult.toString()}"/>
+                    <p:growl id="msgs" showDetail="true" skipDetailIfEqualsSummary="true" widgetVar="msgsWidget"/>
+                </h:form>
+            </div>
+            <div class="row">
+                <h:button outcome="toStart" value="To start" styleClass="btn btn-primary to-start"/>
+            </div>
+            <div class="table-block">
+                <p:dataTable id="results-table" var="result" value="#{results.resultArrayList}" emptyMessage=""
+                             tableStyleClass="results-table">
+                    <p:column headerText="X">
+                        <h:outputText value="#{result.x}"/>
+                    </p:column>
+                    <p:column headerText="Y">
+                        <h:outputText value="#{result.y}"/>
+                    </p:column>
+
+                    <p:column headerText="R">
+                        <h:outputText value="#{result.r}"/>
+                    </p:column>
+
+                    <p:column headerText="Result">
+                        <h:outputText value="#{result.isHit}"/>
+                    </p:column>
+
+                    <p:column headerText="Time">
+                        <h:outputText value="#{result.dateAndTime}"/>
+                    </p:column>
+                </p:dataTable>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"/>
+</h:body>
+
+</html>

@@ -1,0 +1,16 @@
+/Users/hamzaagaev/Desktop/ITMO_University/academic_debt/programming/lab_7/server/src/main/java/server/App.java
+/Users/hamzaagaev/Desktop/ITMO_University/academic_debt/programming/lab_7/server/src/main/java/server/netserver/ClientMessageManager.java
+/Users/hamzaagaev/Desktop/ITMO_University/academic_debt/programming/lab_7/server/src/main/java/server/collection/CollectionManager.java
+/Users/hamzaagaev/Desktop/ITMO_University/academic_debt/programming/lab_7/server/src/main/java/server/netserver/RequestEntityDeserializer.java
+/Users/hamzaagaev/Desktop/ITMO_University/academic_debt/programming/lab_7/server/src/main/java/server/jsonhandlers/JSONParser.java
+/Users/hamzaagaev/Desktop/ITMO_University/academic_debt/programming/lab_7/server/src/main/java/server/netserver/ServerManager.java
+/Users/hamzaagaev/Desktop/ITMO_University/academic_debt/programming/lab_7/server/src/main/java/server/jsonhandlers/JSONFileHandler.java
+/Users/hamzaagaev/Desktop/ITMO_University/academic_debt/programming/lab_7/server/src/main/java/server/netserver/CommandDelegator.java
+/Users/hamzaagaev/Desktop/ITMO_University/academic_debt/programming/lab_7/server/src/main/java/server/netserver/ResponseEntitySerializer.java
+/Users/hamzaagaev/Desktop/ITMO_University/academic_debt/programming/lab_7/server/src/main/java/server/jsonhandlers/LocalDateTimeAdapter.java
+/Users/hamzaagaev/Desktop/ITMO_University/academic_debt/programming/lab_7/server/src/main/java/server/netserver/multithreading/RequestBytesReceiver.java
+/Users/hamzaagaev/Desktop/ITMO_University/academic_debt/programming/lab_7/server/src/main/java/server/netserver/multithreading/RequestExecuteTask.java
+/Users/hamzaagaev/Desktop/ITMO_University/academic_debt/programming/lab_7/server/src/main/java/server/users/UserManager.java
+/Users/hamzaagaev/Desktop/ITMO_University/academic_debt/programming/lab_7/server/src/main/java/server/database/DatabaseManager.java
+/Users/hamzaagaev/Desktop/ITMO_University/academic_debt/programming/lab_7/server/src/main/java/server/netserver/multithreading/ResponseSendTask.java
+/Users/hamzaagaev/Desktop/ITMO_University/academic_debt/programming/lab_7/server/src/main/java/server/netserver/multithreading/RequestReadTask.java

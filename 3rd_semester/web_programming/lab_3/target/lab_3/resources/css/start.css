@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Digital-7";
+    src: url("#{resource['fonts/digital-7.regular.ttf']}") format("truetype");
+}
+
+.clock-block {
+    font-family: "Digital-7", sans-serif;
+    color: #00cc00;
+    border-radius: 15px;
+    border: solid 2px #666666;
+    background-color: #222222;
+    margin: 15px;
+    padding: 10px;
+}

@@ -1,0 +1,149 @@
+body {
+    background-color: #364156;
+}
+
+.page_head {
+    display: flex;
+    background-color: #4DA167;
+    justify-content: space-around;
+    padding: 8px;
+}
+
+.ph_text {
+    text-align: center;
+    width: 300px;
+    color: white;
+    font-size: 25px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.main_content {
+    background-color: #E6E8E6;
+    margin: 50px;
+    padding: 50px;
+    border-radius: 30px;
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.coords {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F05365;
+    padding: 5px 15px;
+    border-radius: 15px;
+    margin: 10px 0px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.form_block {
+    background-color: #1e242f;
+    margin: 10px 0px;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.coord_form {
+    margin: 5px 0px;
+}
+
+.label_div {
+    display: inline-block;
+    background-color: #00AFB5;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin: 3px;
+    color: white;
+}
+
+input, select, .x_block_input {
+    display: inline-block;
+    background-color: #E8AA14;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-family: 'Slabo 27px', serif;
+    color: black;
+    margin: 3px;
+    font-size: 20px;
+}
+
+.label_text {
+}
+
+#send {
+    background-color: #42e547;
+    font-size: 30px;
+}
+
+.canvas_table_div {
+    background-color: #364156;
+    margin: 10px 0px;
+    padding: 25px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.canvas_div {
+    display: inline-block;
+    float: left;
+    margin-right: 5%;
+}
+
+#canvas {
+    background-color: #E6E8E6;
+    display: inline-block;
+    border: green solid;
+}
+
+.table_info_div {
+    display: inline-block;
+    /*float: right;*/
+}
+
+#info_div {
+    background-color: #4DA167;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-family: 'Slabo 27px', serif;
+    color: white;
+    margin: 3px;
+    font-size: 20px;
+}
+
+table {
+    width: 600px;
+    /*display: block;*/
+    border: #1e242f solid;
+    border-radius: 5px;
+    padding: 0px;
+    background-color: #1e242f;
+}
+
+th {
+    background-color: #00AFB5;
+    /*width: 16.6%;*/
+}
+
+td {
+    background-color: #51659a;
+    /*width: 16.6%;*/
+}
+
+.cat_img {
+    margin: 20px 0px;
+}
+
+#cat {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+
+a {
+    margin: 10px 0px;
+    font-size: 30px;
+    display: inline-block;
+}

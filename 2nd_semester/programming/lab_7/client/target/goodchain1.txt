@@ -1,0 +1,11 @@
+show
+add
+GoodVehicle
+10
+10
+1000
+4
+200
+PLANE
+execute_script goodchain2.txt
+show

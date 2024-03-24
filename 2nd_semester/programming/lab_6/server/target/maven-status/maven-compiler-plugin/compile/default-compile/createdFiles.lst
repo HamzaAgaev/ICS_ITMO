@@ -1,0 +1,14 @@
+server/netserver/ResponseSender.class
+server/jsonhandlers/LocalDateTimeAdapter.class
+server/netserver/ClientMessageManager.class
+server/collection/CollectionManager.class
+server/netserver/ServerManager.class
+server/netserver/RequestReceiver.class
+server/jsonhandlers/JSONParser.class
+server/netserver/CommandDelegator$1.class
+server/netserver/RequestEntityDeserializer.class
+server/App.class
+server/jsonhandlers/JSONFileHandler.class
+server/netserver/CommandDelegator.class
+server/jsonhandlers/JSONParser$1.class
+server/netserver/ResponseEntitySerializer.class
