@@ -1,0 +1,56 @@
+{
+    "day": "Понедельник", 
+    "day-schedule": [
+        {
+            "lesson-time-info": {
+                "lesson-weeks": [
+                    2, 4, 6, 8, 10, 12, 14, 16
+                ], 
+                "lesson-time": "10:00-11:30"
+            }, 
+            "lesson-place-info": {
+                "lesson-building": "", 
+                "lesson-room": ""
+            }, 
+            "lesson-base-info": {
+                "lesson-name": "Языки программирования", 
+                "lesson-teacher": "Жирков Игорь Олегович"
+            }, 
+            "lesson-format": "Дистанционный"
+        }, 
+        {
+            "lesson-time-info": {
+                "lesson-weeks": [
+                    1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16
+                ], 
+                "lesson-time": "15:20-16:50"
+            }, 
+            "lesson-place-info": {
+                "lesson-building": "ул.Ломоносова, д.9, лит. А", 
+                "lesson-room": "2202"
+            }, 
+            "lesson-base-info": {
+                "lesson-name": "Математика (БАЗОВЫЙ УРОВЕНЬ)", 
+                "lesson-teacher": "Холодова Светлана Евгеньевна"
+            }, 
+            "lesson-format": "Очный"
+        }, 
+        {
+            "lesson-time-info": {
+                "lesson-weeks": [
+                    1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16
+                ], 
+                "lesson-time": "17:00-18:30"
+            },
+            "lesson-place-info": {
+                "lesson-building": "ул.Ломоносова, д.9, лит. Е", 
+                "lesson-room": "3408"
+            }, 
+            "lesson-base-info": {
+                "lesson-name": "Математика (БАЗОВЫЙ УРОВЕНЬ)", 
+                "lesson-teacher": "Цветков Константин Борисович"
+            }, 
+            "lesson-format": "Очный"
+        }
+    ]
+}

@@ -1,0 +1,103 @@
+ORG 0x0
+V0: WORD $DEFAULT, 0x180
+V1: WORD $INT1, 0x180
+V2: WORD $INT2, 0x180
+V3: WORD $DEFAULT, 0x180
+V4: WORD $DEFAULT, 0x180
+V5: WORD $DEFAULT, 0x180
+V6: WORD $DEFAULT, 0x180
+V7: WORD $DEFAULT, 0x180
+
+DEFAULT:
+	DI
+	PUSH
+	IN 0x3		; сброс регистра готовности всех устройств
+	IN 0x5
+	IN 0x7
+	IN 0xA
+	IN 0xD
+	IN 0x11
+	IN 0x15
+	IN 0x19
+	IN 0x1D
+	POP
+	EI
+	IRET
+
+ORG 0x2C
+RESULT: WORD 0x0
+
+ORG 0x30
+START:
+	DI
+	CLA
+	OUT 0x1		; вектор прерывания 0 во всех неиспол. ВУ
+	OUT 0x7
+	OUT 0xA
+	OUT 0xD
+	OUT 0x11
+	OUT 0x15
+	OUT 0x19
+	OUT 0x1D
+	LD #9
+	OUT 0x3		; вектор прерывания 1 для ВУ-1
+	LD #10
+	OUT 0x5		; вектор прерывания 2 для ВУ-2
+PROG:
+	EI
+	CLA
+INCLP:
+	CMP (RESULT)+
+	LD $RESULT
+	CMP #59
+	BLT INCLP
+	CALL SET_MIN_AC
+	ST $RESULT
+	JUMP INCLP
+
+SET_MIN_AC:
+	LD #-68
+	RET
+
+ORG 0x60
+INT1:
+	DI
+	PUSH
+	LD $RESULT
+	ASL
+	NEG
+	SUB #0xA
+	OUT 0x2
+	POP
+	EI
+	IRET
+INT2:
+	DI
+	PUSH
+	CLA
+	IN 0x4			; GET X
+	ST $TEMP1	; SAVE X
+	AND $RESULT ; X * Y
+	ST $TEMP2	; SAVE X * Y
+	CLA
+	LD $RESULT	; GET Y
+	NOT			; GET NOT(Y)
+	ST $TEMP3	; SAVE NOT(Y)
+	LD $TEMP1	; GET X
+	NOT			; GET NOT(X)
+	AND $TEMP3	; GET NOT(X) * NOT(Y)
+	OR $TEMP2	; GET X * Y + NOT(X) * NOT(Y)
+	CMP #60		; так как BGE >=
+	BGE IS_OUT
+	CMP #-68
+	BLT IS_OUT
+	JUMP EXIT
+IS_OUT:	CALL SET_MIN_AC
+EXIT:
+	ST $RESULT
+	POP
+	EI
+	IRET
+TEMP1: WORD 0x0
+TEMP2: WORD 0x0
+TEMP3: WORD 0x0

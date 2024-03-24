@@ -1,0 +1,15 @@
+[
+  {
+    "id": 1,
+    "name": "HamzaCar",
+    "coordinates": {
+      "x": 10,
+      "y": 10
+    },
+    "creationDate": "2024-03-11T00:11:02.1223",
+    "enginePower": 2000,
+    "numberOfWheels": 4,
+    "capacity": 1000.0,
+    "ownerUserId": 1
+  }
+]

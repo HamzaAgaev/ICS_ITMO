@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all type="dict">
+    <day type="str">Понедельник</day>
+    <day-schedule type="arr">
+        <lesson type="dict">
+            <lesson-time-info type="dict">
+                <lesson-weeks type="arr">
+                    <week type="number">2</week>
+                    <week type="number">4</week>
+                    <week type="number">6</week>
+                    <week type="number">8</week>
+                    <week type="number">10</week>
+                    <week type="number">12</week>
+                    <week type="number">14</week>
+                    <week type="number">16</week>
+                </lesson-weeks>
+                <lesson-time type="str">10:00-11:30</lesson-time>
+            </lesson-time-info>
+            <lesson-place-info type="dict">
+                <lesson-building type="str"></lesson-building>
+                <lesson-room type="str"></lesson-room>
+            </lesson-place-info>
+            <lesson-base-info type="dict">
+                <lesson-name type="str">Языки программирования</lesson-name>
+                <lesson-teacher type="str">Жирков Игорь Олегович</lesson-teacher>
+            </lesson-base-info>
+            <lesson-format type="str">Дистанционный</lesson-format>
+        </lesson>
+        <lesson type="dict">
+            <lesson-time-info type="dict">
+                <lesson-weeks type="arr">
+                    <week type="number">1</week>
+                    <week type="number">2</week>
+                    <week type="number">3</week>
+                    <week type="number">4</week>
+                    <week type="number">5</week>
+                    <week type="number">6</week>
+                    <week type="number">7</week>
+                    <week type="number">8</week>
+                    <week type="number">9</week>
+                    <week type="number">10</week>
+                    <week type="number">11</week>
+                    <week type="number">12</week>
+                    <week type="number">13</week>
+                    <week type="number">14</week>
+                    <week type="number">15</week>
+                    <week type="number">16</week>
+                </lesson-weeks>
+                <lesson-time type="str">15:20-16:50</lesson-time>
+            </lesson-time-info>
+            <lesson-place-info type="dict">
+                <lesson-building type="str">ул.Ломоносова, д.9, лит. А</lesson-building>
+                <lesson-room type="str">2202</lesson-room>
+            </lesson-place-info>
+            <lesson-base-info type="dict">
+                <lesson-name type="str">Математика (БАЗОВЫЙ УРОВЕНЬ)</lesson-name>
+                <lesson-teacher type="str">Холодова Светлана Евгеньевна</lesson-teacher>
+            </lesson-base-info>
+            <lesson-format type="str">Очный</lesson-format>
+        </lesson>
+        <lesson type="dict">
+            <lesson-time-info type="dict">
+                <lesson-weeks type="arr">
+                    <week type="number">1</week>
+                    <week type="number">2</week>
+                    <week type="number">3</week>
+                    <week type="number">4</week>
+                    <week type="number">5</week>
+                    <week type="number">6</week>
+                    <week type="number">7</week>
+                    <week type="number">8</week>
+                    <week type="number">9</week>
+                    <week type="number">10</week>
+                    <week type="number">11</week>
+                    <week type="number">12</week>
+                    <week type="number">13</week>
+                    <week type="number">14</week>
+                    <week type="number">15</week>
+                    <week type="number">16</week>
+                </lesson-weeks>
+                <lesson-time type="str">17:00-18:30</lesson-time>
+            </lesson-time-info>
+            <lesson-place-info type="dict">
+                <lesson-building type="str">ул.Ломоносова, д.9, лит. Е</lesson-building>
+                <lesson-room type="str">3408</lesson-room>
+            </lesson-place-info>
+            <lesson-base-info type="dict">
+                <lesson-name type="str">Математика (БАЗОВЫЙ УРОВЕНЬ)</lesson-name>
+                <lesson-teacher type="str">Цветков Константин Борисович</lesson-teacher>
+            </lesson-base-info>
+            <lesson-format type="str">Очный</lesson-format>
+        </lesson>
+    </day-schedule>
+</all>
